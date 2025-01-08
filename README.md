@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fuel App
 
-## Getting Started
+Fuel App es una aplicación web diseñada para detallar y gestionar los consumos de combustible. Con esta herramienta, los usuarios pueden:
 
-First, run the development server:
+- Registrar los consumos de combustible de sus vehículos.
+- Monitorear el rendimiento del combustible.
+- Generar reportes detallados sobre el uso de combustible.
+- Analizar patrones de consumo para optimizar el uso del combustible.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Características
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Registro de Consumos:** Permite ingresar datos de consumo de combustible de manera sencilla.
+- **Reportes Detallados:** Genera informes que ayudan a entender mejor el uso del combustible.
+- **Análisis de Datos:** Proporciona herramientas para analizar y mejorar la eficiencia del combustible.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Instalación
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Para instalar y ejecutar la aplicación, sigue estos pasos:
 
-## Learn More
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/usuario/fuel-app.git
+    ```
+2. Navega al directorio del proyecto:
+    ```bash
+    cd fuel-app
+    ```
+3. Instala las dependencias:
+    ```bash
+    npm install
+    ```
+4. Inicia la aplicación:
+    ```bash
+    npm start
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+## Contribuciones
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Las contribuciones son bienvenidas. Por favor, sigue las pautas del proyecto para contribuir.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Licencia
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.

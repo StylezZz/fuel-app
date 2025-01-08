@@ -29,7 +29,7 @@ const data = {
     },
     {
       title: "Reportes",
-      url: "#",
+      url: "/reportes",
       icon: NotebookText, // Add icon property
     },
     {

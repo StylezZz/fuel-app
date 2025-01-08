@@ -86,7 +86,7 @@ const NuevoConsumo = () => {
               name="fecha"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Fecha</FormLabel>
+                  <FormLabel className="mr-5">Fecha</FormLabel>
                   <FormControl>
                     <DatePicker
                       startYear={2023}
